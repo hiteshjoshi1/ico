@@ -18,10 +18,11 @@ In your project directory
 npm i
 
 ### Create a file in your project .env with
+```
 ROPSTEN_API_KEY=<UR_INFURA ROPSTEN KEY HERE>
 RINKEBY_API_KEY=<UR INFURA RINKEBY KEY HERE >
 MNENOMIC=< meta mask mnenmonic to unlock accounts and sign> 
-
+```
 
 ## Compiling and running
 
