@@ -1,4 +1,4 @@
-#Coin and Crowdsale 
+# Coin and Crowdsale 
 
 - uses Open Zeppelin contracts
 - contracts are based on Openzeppelin tutorial here
