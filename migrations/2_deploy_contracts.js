@@ -29,7 +29,15 @@ module.exports = function (deployer, network, accounts) {
 
       const wallet = accounts[0];
       let block =  await web3AsynWrapper(web3.eth.getBlock,'latest');
-      this.openingTime = block.timestamp + duration.minutes(6);
+      if(network=="development"){
+        this.openingTime = block.timestamp + duration.minutes(1);
+      }
+      else if(network=="ropsten"){
+        console.log("For ropsten , start the crowdsale lil late");
+        this.openingTime = block.timestamp + duration.minutes(5);
+      }
+      console.log("Opening Time ",this.openingTime);
+      
       this.closingTime = this.openingTime + duration.minutes(30);
       const rate = new web3.BigNumber(1);
 

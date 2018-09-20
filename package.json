@@ -1,0 +1,33 @@
+{
+  "name": "ico-infura",
+  "version": "1.0.0",
+  "description": "Basic ICO using Infura to deploy to ropsten",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "^1.12.0",
+    "truffle-hdwallet-provider": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiteshjoshi1/ico.git"
+  },
+  "keywords": [
+    "Infura",
+    "ico",
+    "crowdsale"
+  ],
+  "author": "Hitesh Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiteshjoshi1/ico/issues"
+  },
+  "homepage": "https://github.com/hiteshjoshi1/ico#readme"
+}
